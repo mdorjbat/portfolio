@@ -1,40 +1,71 @@
 body {
     background: lightslategray;
+    font-family: "Akaya Telivigala", sans-serif;
 }
 
 .container {
-    width: 300px;
-    margin: 20px auto;
-    height: 300px;
     display: grid;
     grid-gap: 4px;
-    grid-template-rows: 100px 100px 1fr 1fr;
-    grid-template-columns: 80px 1fr 30px;
+    grid-template-rows: 50px 200px 200px 200px 200px 40px 40px 40px;
+    grid-template-columns: 140px 600px 600px;
 }
 
 .item {
     background: #F3F3F3;
 }
 
-.one {
+.Myname{
     grid-row: 1;
+    grid-column: 1 / span 3;
+    font-size: 24px;
+}
+.AboutMe{
+    grid-row:2;
+    grod-column: 1;
+}
+.AboutMeMore{
+    grid-row:2;
+    grid-column: 2;
+}
+.Myhobby {
+    grid-row: 3;
+    grid-column: 1;
+
+}
+
+.Myhobbymore {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.MyCV {
+    grid-row: 4;
     grid-column: 1;
 }
 
-.two {
+.MyCVmore{
+    grid-row: 4;
+    grid-column: 2;
 }
 
-.three {
+.Myprojects{
+    grid-row: 5;
+    grid-column: 1;
 }
-
-.four {
+.Myprojectsmore{
+    grid-row: 5;
+    grid-column: 2;
 }
-
-.five {
+.Image{
+    grid-row: 2 /span 1;
+    grid-column: 3 / span 4;
 }
+.Contacts{
+    grid-row: 6;
+    gird-column: 1;
 
-.six {
 }
-
-.seven {
+.ContactsList{
+    grid-row: 6;
+    grid-column: 2;
 }
