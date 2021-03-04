@@ -1,3 +1,8 @@
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
 body {
     background: lightslategray;
     font-family: "Akaya Telivigala", sans-serif;
@@ -8,7 +13,7 @@ body {
 .container {
     display: grid;
     grid-gap: 4px;
-    grid-template-rows: 50px 100px 100px 200px 200px 40px 40px 40px;
+    grid-template-rows: 50px 100px 100px 100px 100px 150px 150px 150px 40px ;
     grid-template-columns: 140px 600px 1000px;
 }
 
@@ -43,26 +48,49 @@ body {
     grid-column: 2;
 }
 
-.MyCV {
+.MyExperience {
     grid-row: 4;
+    grid-column: 1;
+    font-size: 20px;
+    font-width: bold;
+}
+
+
+.MyExperienceMore {
+    grid-row: 4;
+    grid-column: 2;
+}
+.MyEducation {
+    grid-row: 5;
+    grid-column: 1;
+    font-size: 20px;
+    font-width: bold;
+}
+.MyEducationMore {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.MySkills {
+    grid-row: 6;
     grid-column: 1;
     font-size: 20px;
     font-width: bold;
 }
 
 .MyCVmore{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 2;
 }
 
 .Myprojects{
-    grid-row: 5;
+    grid-row: 7;
     grid-column: 1;
     font-size: 20px;
     font-width: bold;
 }
 .Myprojectsmore{
-    grid-row: 5;
+    grid-row: 7;
     grid-column: 2;
 }
 .Image{
@@ -73,13 +101,13 @@ body {
 
 }
 .Contacts{
-    grid-row: 6;
+    grid-row: 8;
     gird-column: 1;
     font-size: 20px;
     font-width: bold;
 
 }
 .ContactsList{
-    grid-row: 6;
+    grid-row: 8;
     grid-column: 2;
 }
